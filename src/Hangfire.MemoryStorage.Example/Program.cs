@@ -45,6 +45,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-RecurringJob.AddOrUpdate<IMyRecurringJob>(JobIds.MyRecurringJob, job => job.Execute(), Cron.Minutely);
+RecurringJob.AddOrUpdate<IMyRecurringJob>(JobIds.MyRecurringJob, job => job.Execute(null), Cron.Minutely);
 
 app.Run();

@@ -11,7 +11,7 @@ public class MyRecurringJobTests
         var logger = new Mock<ILogger<MyRecurringJob>>();
         var job = new MyRecurringJob(logger.Object);
 
-        var action = () => job.Execute();
+        var action = () => job.Execute(null);
 
         await action.Should().NotThrowAsync();
         logger.VerifyAll();
