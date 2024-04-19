@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.MemoryStorage.Example", "src\Hangfire.MemoryStorage.Example\Hangfire.MemoryStorage.Example.csproj", "{83D10F93-F129-4109-B519-573677131EA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7B7AA4FA-7826-41D9-A869-BD136457494B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.MemoryStorage.Example.Tests", "test\Hangfire.MemoryStorage.Example.Tests\Hangfire.MemoryStorage.Example.Tests.csproj", "{20470A0E-30FD-4C6C-9139-6F0865A62D8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83D10F93-F129-4109-B519-573677131EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D10F93-F129-4109-B519-573677131EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D10F93-F129-4109-B519-573677131EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D10F93-F129-4109-B519-573677131EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20470A0E-30FD-4C6C-9139-6F0865A62D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20470A0E-30FD-4C6C-9139-6F0865A62D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20470A0E-30FD-4C6C-9139-6F0865A62D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20470A0E-30FD-4C6C-9139-6F0865A62D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C77F1573-8213-48C1-8439-89F979174BAC}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20470A0E-30FD-4C6C-9139-6F0865A62D8A} = {7B7AA4FA-7826-41D9-A869-BD136457494B}
+	EndGlobalSection
+EndGlobal
